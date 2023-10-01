@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171717;
+  color: #f3effe;
+  font-family: "Mooli", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  padding: 30px 5%;
+}
+header {
+  padding: 30px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar img {
+  filter: brightness(180%);
+  width: 100px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+  padding-right: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* 
+-------------------------------
+        Home Section 
+-------------------------------
+ */
+
+.home-section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* First column 1 fraction, second column 2 fractions */
+  gap: 10px; /* Gap between columns */
+}
+.home-content {
+  padding-top: 70px;
+  padding-left: 15%;
+  padding-right: 5%;
+}
+.home-content h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+.home-content h1 span {
+  color: #be7e4e;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "Mooli", sans-serif;
+}
+.home-content p {
+  padding-bottom: 40px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.buttons .getStarted {
+  text-decoration: none;
+  background-color: #be7e4e;
+  color: #f3effe;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.buttons .aboutShop {
+  text-decoration: none;
+  border: 1px solid #be7e4e;
+  color: #f3effe;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* 
+-------------------------------
+        Counter Section 
+-------------------------------
+ */
+.couter-section {
+  margin-bottom: 50px;
+}
+.couter-section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* First column 1 fraction, second column 2 fractions */
+  gap: 10px; /* Gap between columns */
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 5%;
+}
+.couter-section .row .col h2 {
+  color: #be7e4e;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* 
+-------------------------------
+        coffee Section 
+-------------------------------
+ */
+
+.coffee-section {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.slider {
+  width: 100%;
+  height: 100vh;
+}
+
+.slider .wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.slider .wrapper .left,
+.slider .wrapper .right {
+  width: 50%;
+  overflow: hidden;
+}
+
+.slider .wrapper .left > div,
+.slider .wrapper .right > div {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.green-tea-coffee {
+}
+.right h2 {
+  font-size: 100px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "Mooli", sans-serif;
+  margin-bottom: 30px;
+}
+.coffee-name-1 {
+  color: blueviolet;
+}
+.coffee-name-2 {
+  color: green;
+}
+.coffee-name-3 {
+  color: chocolate;
+}
+
+/* 
+-------------------------------
+        features Section 
+-------------------------------
+ */
+
+.features-section {
+  margin-top: -170px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.features-section h3 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #be7e4e;
+  margin-bottom: 10px;
+}
+
+.features-section p {
+  /* font-family: "Mooli", sans-serif; */
+}
+.features-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: #be7e4e;
+  color: #171717;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase the scale on hover */
+}
+
+/* Add other styles as needed */
+
+.card h4 {
+  font-size: 20px;
+  color: #f3effe;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+/* 
+-------------------------------
+        About us Section 
+-------------------------------
+ */
+
+.aboutUS-section .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* First column 1 fraction, second column 2 fractions */
+  gap: 10px; /* Gap between columns */
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.aboutUS-section .row .col h2 {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #be7e4e;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.aboutUS-section .row .col p {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.readMore {
+  margin-left: 50px;
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: #be7e4e;
+  color: #f3effe;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+/* 
+-------------------------------
+        gallary Section 
+-------------------------------
+ */
+
+.gallary-section {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.gallary-section h3 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #be7e4e;
+  margin-bottom: 10px;
+}
+.gallary-section p {
+}
+
+.gallery {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* First column 1 fraction, second column 2 fractions */
+  gap: 10px; /* Gap between columns */
+}
+
+.gallery-image {
+  display: block;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+/* 
+-------------------------------
+        Footer Section 
+-------------------------------
+ */
+
+footer {
+  background-color: #be7e4e;
+  margin-top: 50px;
+  padding: 30px 0px;
+  text-align: center;
+}
+footer a {
+  color: #171717;
+  text-decoration: none;
+}
+
+footer a span {
+  color: #171717;
+
+  font-weight: bold;
+}
